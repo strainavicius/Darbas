@@ -1,0 +1,111 @@
+.main{
+    display: flex;
+    
+    background: url("../app/images/christoffer-engstrom-503481-unsplash.png");
+    background-size: cover;
+    background-position: center;
+  height: 600px;
+  
+  padding-top: 10px;
+  
+    
+   
+
+  .tab{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+   
+  }
+ 
+  .veg{
+    margin-top: 8px;
+  }
+  .veg:hover{
+    background: rgba(207, 88, 45, 0.868);
+  }
+  .shoes{
+    width: 389px;
+    height: 230px;
+    margin-left: 0px;
+    margin-right: 10px;
+    position: relative;
+  }
+  .photo:hover .shoes{
+    opacity: 0.3;
+  }
+  
+  .photo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items:flex-start;
+    height: 300px;
+    max-width: 500px;
+    
+    margin: auto;
+    margin-top: 0px;
+    position: relative;
+  }
+  
+    
+    button{
+        display: flex;
+        width: 100px;
+        height: 100px;
+        font-family: montserrat;
+        font-weight:bold;
+        color:white;
+        background: #E27866;
+        border: none;
+        margin: 40px;
+        margin-top: 20px;
+        margin-left: 150px;
+        position: relative;
+        cursor:pointer;
+        transition: 0.3s;
+        
+        
+    }
+    button:hover{
+        background: #A37169;
+    }
+    button.selected {
+        background: #A37169;
+    }
+    span{
+        transform: rotate(320deg);
+        position: absolute;
+        top: 40px;
+        left: 20px;
+    }
+    
+    h1{
+        max-width: 480px;
+        color: white;
+        margin-top: 40px;
+        margin-left: 30px;
+        font-size: 2.0em;
+    }
+    p{
+        max-width: 480px;
+        color: white;
+        margin-top: 30px;
+        font-size: small;
+        margin-left: 30px;
+        text-align: left;
+   }
+
+}
+@media (max-width: 768px){
+  .main{
+    
+    height: 900px;
+  }
+  
+
+  
+}

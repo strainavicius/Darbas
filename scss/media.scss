@@ -1,0 +1,68 @@
+.media{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    background: white;
+    padding: 20px;
+    
+    .social{
+      margin-left: 130px;
+    }
+    h1{
+      margin-bottom: 10px;
+    }
+    p{
+      max-width: 450px;
+      line-height: 25px;
+      color: #86878B;
+    }
+    .images{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 400px;
+      margin-right: 100px;
+      
+      cursor: pointer;
+      
+      
+    }
+    .fb{
+      transition: 0.3s;
+    }
+    .ig{
+      transition: 0.3s;
+    }
+    .tw{
+      transition: 0.3s;
+    }
+    .pri{
+      transition: 0.3s;
+    }
+    .wifi{
+      transition: 0.3s;
+    }
+    .fb:hover{
+      transform: scale(1.5);
+    }
+    .ig:hover{
+      transform: scale(1.5);
+    }
+    .tw:hover{
+      transform: scale(1.5);
+    }
+    .pri:hover{
+      transform: scale(1.5);
+    }
+    .wifi:hover{
+      transform: scale(1.5);
+    }
+    }
+    @media (max-width: 768px){
+      .media{
+        height: 200px;
+        margin: auto;
+        flex-wrap: wrap;
+      }
+    }
